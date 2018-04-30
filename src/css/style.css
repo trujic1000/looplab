@@ -1,0 +1,103 @@
+/*-----------------------------------
+            VARIABLES
+-----------------------------------*/
+/*-----------------------------------
+            GENERAL
+-----------------------------------*/
+body {
+  background: #333;
+  color: #fff; }
+
+/*-----------------------------------
+            NAVBAR
+-----------------------------------*/
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8; }
+
+/*-----------------------------------
+            HOME SECTION
+-----------------------------------*/
+#home-section {
+  background-image: url("../img/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px; }
+  #home-section .dark-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px; }
+  #home-section .home-inner {
+    padding-top: 150px; }
+  #home-section .card-form {
+    opacity: 0.9; }
+  #home-section .fa {
+    color: #008ed6;
+    background: #fff;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 30px; }
+
+/*-----------------------------------
+            EXPLORE SECTION
+-----------------------------------*/
+#explore-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+/*-----------------------------------
+            CREATE SECTION
+-----------------------------------*/
+#create-section .fa {
+  color: #008ed6;
+  background: #fff;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+/*-----------------------------------
+            SHARE SECTION
+-----------------------------------*/
+#share-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px; }
+
+/*-----------------------------------
+            ANIMATION
+-----------------------------------*/
+#home-heading,
+#home-flex-1,
+#home-flex-2,
+#home-flex-3 {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s; }
+
+#home-heading {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s; }
+
+#home-flex-1 {
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s; }
+
+#home-flex-2 {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s; }
+
+#home-flex-3 {
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s; }
+
+#home-card-form {
+  -webkit-animation-delay: 3s;
+  animation-delay: 3s; }

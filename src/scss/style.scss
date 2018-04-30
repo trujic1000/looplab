@@ -1,0 +1,137 @@
+/*-----------------------------------
+            VARIABLES
+-----------------------------------*/
+
+$bg-color: #333;
+$font-color: #fff;
+$primary-color: #008ed6;
+$dark-overlay: rgba(0, 0, 0, 0.7);
+$icon-size: 30px;
+
+/*-----------------------------------
+            GENERAL
+-----------------------------------*/
+body {
+    background: $bg-color;
+    color: $font-color;
+}
+
+/*-----------------------------------
+            NAVBAR
+-----------------------------------*/
+
+.navbar {
+    border-bottom: $primary-color 3px solid;
+    opacity: 0.8;
+}
+
+/*-----------------------------------
+            HOME SECTION
+-----------------------------------*/
+#home-section {
+    background-image: url('../img/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    
+    .dark-overlay {
+        background-color: $dark-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 700px;
+    }
+    
+    .home-inner {
+        padding-top: 150px;
+    }
+    
+    .card-form {
+        opacity: 0.9;
+    }
+    
+    .fa {
+        color: $primary-color;
+        background: #fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+
+/*-----------------------------------
+            EXPLORE SECTION
+-----------------------------------*/
+#explore-section {
+    .fa {
+        color: #fff;
+        background: #333;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+
+/*-----------------------------------
+            CREATE SECTION
+-----------------------------------*/
+#create-section {
+    .fa {
+        color: $primary-color;
+        background: #fff;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+
+/*-----------------------------------
+            SHARE SECTION
+-----------------------------------*/
+#share-section {
+    .fa {
+        color: #fff;
+        background: #333;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: $icon-size;
+    }
+}
+
+/*-----------------------------------
+            ANIMATION
+-----------------------------------*/
+#home-heading,
+#home-flex-1,
+#home-flex-2,
+#home-flex-3 {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+#home-heading {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+#home-flex-1 {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+#home-flex-2 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+#home-flex-3 {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+#home-card-form {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
